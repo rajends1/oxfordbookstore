@@ -1,0 +1,87 @@
+# user_stories.yaml
+
+user_stories:
+  - id: 1
+    title: "User can search for books"
+    description: >
+      As a user, I want to search for books by title, author, genre, or ISBN so that I can find the books I'm interested in.
+    acceptance_criteria:
+      - User can enter search terms in a search bar.
+      - Search results should display relevant books.
+      - Each result should include the book title, author, price, and availability status.
+
+  - id: 2
+    title: "User can view book details"
+    description: >
+      As a user, I want to view detailed information about a book so that I can decide whether to purchase it.
+    acceptance_criteria:
+      - Clicking on a book from the search results or listings displays a detailed view.
+      - The detailed view should include the book title, author, description, price, availability, and reviews.
+
+  - id: 3
+    title: "User can add books to a shopping cart"
+    description: >
+      As a user, I want to add books to my shopping cart so that I can purchase multiple books at once.
+    acceptance_criteria:
+      - Each book's detail page should have an "Add to Cart" button.
+      - The cart should display a list of added books, quantities, and total price.
+      - User can update quantities or remove books from the cart.
+
+  - id: 4
+    title: "User can checkout"
+    description: >
+      As a user, I want to go through a checkout process so that I can complete my purchase.
+    acceptance_criteria:
+      - The checkout process should include steps for entering shipping information, selecting a payment method, and reviewing the order.
+      - User receives a confirmation message and email upon successful checkout.
+
+  - id: 5
+    title: "User can view and read articles"
+    description: >
+      As a user, I want to view and read articles about books and authors so that I can stay informed and entertained.
+    acceptance_criteria:
+      - User can browse a list of articles by category, author, or publication date.
+      - Clicking on an article displays the full content, including text, images, and related links.
+
+  - id: 6
+    title: "Admin can manage inventory"
+    description: >
+      As an admin, I want to manage the bookstore's inventory so that I can add, update, or remove books as needed.
+    acceptance_criteria:
+      - Admin can add new books with title, author, genre, ISBN, price, and stock quantity.
+      - Admin can update existing book information.
+      - Admin can remove books from the inventory.
+
+  - id: 7
+    title: "Admin can manage users"
+    description: >
+      As an admin, I want to manage user accounts so that I can ensure the system is used appropriately.
+    acceptance_criteria:
+      - Admin can view a list of all users.
+      - Admin can update user information, such as email and role.
+      - Admin can deactivate or delete user accounts.
+
+  - id: 8
+    title: "Admin can manage articles"
+    description: >
+      As an admin, I want to manage articles so that I can publish, update, or remove content as needed.
+    acceptance_criteria:
+      - Admin can add new articles with title, author, content, and publication date.
+      - Admin can update existing articles.
+      - Admin can remove articles from the system.
+
+  - id: 9
+    title: "Admin can view sales reports"
+    description: >
+      As an admin, I want to view sales reports so that I can analyze the bookstore's performance.
+    acceptance_criteria:
+      - Reports should include data on sales over time, best-selling books, and revenue.
+      - Admin can filter reports by date range and book category.
+
+  - id: 10
+    title: "Admin can view user activity reports"
+    description: >
+      As an admin, I want to view user activity reports so that I can monitor user engagement and identify any issues.
+    acceptance_criteria:
+      - Reports should include data on user logins, purchases, and article views.
+      - Admin can filter reports by date range and user role.
